@@ -1,0 +1,898 @@
+<html>
+  <head>
+    <title> Spardha </title>
+    <style type="text/css">
+  
+		  
+        #title
+        {
+           text-transform : capitalize;
+           color : pink;
+           font-family : Jokerman;
+           text-shadow : 10 10 5 black;
+        }
+
+		.title
+        {
+		    font-family : Pristina;
+            font-size : 40;
+			font-weight : bold;
+        }
+		
+        .header 
+		{
+            padding: 10px;
+            text-align: center;
+            background: pink;
+            color: red;
+            font-size: 30px;
+        }
+
+		.p1
+		 {
+		      font-size : 40;
+			  font-family : Freestyle Script;
+			  text-transform : capitalize;
+		 }
+		  
+		  
+		  
+            .header 
+			{
+                  background: pink;
+                  color: red;
+                  font-size: 30px;
+            }
+		  
+		 		 
+		 
+		  #space
+          {
+               line-height : 1.4;
+               word-spacing : 2;
+               letter-spacing : 1.2;
+          }
+		  		  
+		  p{
+		  
+		    font-family : monotype corsiva;
+		
+		  }
+		  
+		  h1
+		  {
+		     font-family : Old English Text MT;
+		  }
+		  
+        body
+        {
+           background-image : radial-gradient(pink,red,blue);
+        }
+       
+	   .img1
+	   {
+	         margin-left : 20;
+			 opacity : 0.5;
+			 margin-top : 50;
+	         height : 280;
+			 width : 380;
+			 border-radius : 40px;
+ 	   }
+	   
+	   .img2
+	   {
+	   	     opacity : 0.5;
+	         margin-left : 20;
+	         margin-top : 50;
+	         height : 280;
+			 width : 380;
+		     border-radius : 40px;
+	   }
+	   
+	   .img3
+	   {
+	    	 opacity : 0.5;
+	         margin-left : 20;
+	         margin-top : 50;
+	         height : 280;
+			 width : 380;
+		     border-radius : 40px;
+	   }
+	   
+	   img:hover
+	   {
+	         opacity : 1;
+		     height : 350;
+			 width : 440;
+			 border-style :groove;
+             border-color : yellow; 
+             border-width : 10;
+   		     border-radius : 100px;
+	   }
+	   
+	   .para
+	   {
+	         line-height : 1.3;
+             word-spacing : 2;
+             letter-spacing : 1.2;
+			 text-align : justify;
+			 margin : 30;
+		     font-size : 20;
+
+	   }
+	   
+	   #summary
+	   {
+	         font-size : 35;
+			 font-family : Old English Text MT;
+	   }
+	   
+  
+  	  #field
+       {
+            width : 550;
+            margin-left : 150;
+            margin-top : 50;
+            padding-left : 50;
+            padding-top : 35;
+       }
+	   
+	   .parac
+	   {
+	        font-size : 26;
+			font-style : italic;
+			text-transform : capitalize;
+			
+	   }
+	   
+	   .rule
+	   {
+	      font-size : 30;
+		  font-weight : bold;
+	   }
+	   
+	   .ul1
+	   {
+	     font-size : 20;
+	   }
+	   
+       a:link
+       {
+             color : black; 
+    	     font-family : monotype corsiva;
+		     font-size : 30;
+			 font-weight : bold;
+       }
+       a:visited
+       {
+           color : pink; 
+       }
+       a:hover
+       {
+           color : blue; 
+		   font-size : 35;
+           text-decoration : none;
+		   font-family : Old English Text MT;
+       }
+       a:active
+       {
+           color : black; 
+       }	   
+
+  </style>
+  
+      <script>
+        function fun()
+        {
+           var s=true;
+           var u=document.getElementById("user");
+             if(u.value.length<5)
+                 s=false;
+           var m=document.getElementById("mob");
+           if(m.value.length!=10)
+              s=false;  
+			  
+           return s;
+        }
+		
+		 function fun1()
+         {
+             var s=document.getElementById("s");
+             s.style.fontSize="70";
+			 s.style.color="blue";
+         }
+         function fun2()
+         {
+             var s=document.getElementById("s");
+            s.style.fontSize="60";
+			s.style.color="red";
+         }
+			
+		
+		 function fun11()
+         {
+             var s=document.getElementById("s1");
+             s.style.fontSize="60";
+			 s.style.color="yellow";
+         }
+         function fun12()
+         {
+             var s=document.getElementById("s1");
+            s.style.fontSize="40";
+			s.style.color="black";
+         }
+	   
+		 function fun21()
+         {
+             var s=document.getElementById("s2");
+             s.style.fontSize="60";
+			 s.style.color="yellow";
+         }
+         function fun22()
+         {
+             var s=document.getElementById("s2");
+            s.style.fontSize="40";
+			s.style.color="black";
+         }
+
+		 function fun31()
+         {
+             var s=document.getElementById("s3");
+             s.style.fontSize="60";
+			 s.style.color="yellow";
+         }
+         function fun32()
+         {
+             var s=document.getElementById("s3");
+            s.style.fontSize="40";
+			s.style.color="black";
+         }
+
+		 function fun41()
+         {
+             var s=document.getElementById("s4");
+             s.style.fontSize="60";
+			 s.style.color="yellow";
+         }
+         function fun42()
+         {
+             var s=document.getElementById("s4");
+            s.style.fontSize="40";
+			s.style.color="black";
+         }
+
+		 function fun51()
+         {
+             var s=document.getElementById("s5");
+             s.style.fontSize="60";
+			 s.style.color="yellow";
+         }
+         function fun52()
+         {
+             var s=document.getElementById("s5");
+            s.style.fontSize="40";
+			s.style.color="black";
+         }
+
+		 function fun61()
+         {
+             var s=document.getElementById("s6");
+             s.style.fontSize="60";
+			 s.style.color="yellow";
+         }
+         function fun62()
+         {
+             var s=document.getElementById("s6");
+            s.style.fontSize="40";
+			s.style.color="black";
+         }
+
+		 function fun71()
+         {
+             var s=document.getElementById("s7");
+             s.style.fontSize="60";
+			 s.style.color="yellow";
+         }
+         function fun72()
+         {
+             var s=document.getElementById("s7");
+            s.style.fontSize="40";
+			s.style.color="black";
+         }
+		 
+		 function fun81()
+         {
+             var s=document.getElementById("s8");
+             s.style.fontSize="60";
+			 s.style.color="yellow";
+         }
+         function fun82()
+         {
+             var s=document.getElementById("s8");
+            s.style.fontSize="40";
+			s.style.color="black";
+         }
+		
+		 function funx()
+         {
+             var s=document.getElementById("summary");
+             s.style.fontSize="60";
+			 s.style.color="skyblue";
+         }
+         function funy()
+         {
+             var s=document.getElementById("summary");
+            s.style.fontSize="40";
+			s.style.color="black";
+         } 
+		 
+		 function funmy1()
+         {
+             var s=document.getElementById("my");
+             s.style.fontSize="45";
+			 s.style.color="blue";
+         }
+         function funmy2()
+         {
+             var s=document.getElementById("my");
+            s.style.fontSize="25";
+			s.style.color="black";
+         }
+		 function submit1()
+         {
+             var s=document.getElementById("sub");
+             s.style.fontSize="30";
+			 s.style.color="blue";
+			 s.style.textDecoration="underline";
+			 s.style.fontFamily="Old English Text MT";
+         }
+		 function submit2()
+         {
+             var s=document.getElementById("sub");
+             s.style.fontSize="20";
+			 s.style.color="red";
+			 s.style.textDecoration="none";	
+			 s.style.fontFamily="monotype corsiva";			 
+         }
+
+				 	
+     </script>
+
+  
+  </head>
+<body>
+
+    <marquee> <h1 id="title"> <strong> Spardha is going on !!! </strong> </h1> </marquee>
+
+	
+	 <div class="header">
+       <h1  id="s" onmouseover="fun1()" onmouseout="fun2()"> Spardha </h1>
+       <p> Get Ready For Participation </p>
+     </div>
+
+	 
+	 <p class="p1" id="space" style="margin-right: 20;"> &nbsp; &nbsp; all the students of b.tech , m.tech are hereby informed that they must informed that 
+	                           they must given the name of conveners for the games/sports.
+	 </p>
+	 <center> <p class="p1"> registration is now start till 20 march 2019 </p> </center>
+	 <center> <p class="p1"> so hurry up guys !!! </p> </center>
+	 
+	 
+	 <ul class="list">
+              <li> <details>  
+                       <summary class="title" id="s1" onmouseover="fun11()" onmouseout="fun12()">  <abber title="press me for more info "> Cricket  </abbr>  </summary>
+					   <h2 style="text-decoration : underline"> Indian Cricket History :- </h2> 
+                       <p class="para"> The British brought cricket to India in the early 1700s, with the first cricket match played in 1721.In 1848, 
+					   the Parsi community in Bombay formed the Oriental Cricket Club, the first cricket club to be established by Indians. After slow 
+					   beginnings, the Europeans eventually invited the Parsis to play a match in 1877. By 1912, the Parsis, Sikhs, Hindus and Muslims 
+					   of Bombay played a quadrangular tournament with the Europeans every year. In the early 1900s, some Indians went on to play for
+					   the England cricket team. Some of these, such as Ranjitsinhji and KS Duleepsinhji were greatly appreciated by the British and their
+					   names went on to be used for the Ranji Trophy and Duleep Trophy – two major first-class tournaments in India. In 1911, an Indian
+					   team went on their first official tour of the British Isles, but only played English county teams and not the England cricket team.
+					   </p>
+					   
+					   <table>
+					     <tr>
+						   <td>
+					         <div>
+					           <img class ="img1" src="C:\Users\Sumit Kumar\Pictures\spardha site\cricket 1.jpg">
+							 </div>
+						   </td>
+						   
+					       <td>
+					   	      <div>
+					            <img class ="img2" src="C:\Users\Sumit Kumar\Pictures\spardha site\cricket 2.jpg">
+					          </div>
+						   </td>
+
+					       <td>
+					   	      <div>
+					            <img class ="img3" src="C:\Users\Sumit Kumar\Pictures\spardha site\cricket 3.jpg">
+					          </div>
+						   </td>
+						 </tr>
+						</table>
+					   <br>
+					   <center> <strong> <p class="p1" style="text-decoration : underline"> In this year cricket is also included in spardha </p> </strong> </center>
+					   <p class="parac"> intrested student can participate this making own team and winner team can goes to play cricket with another college's teams. </p>  
+					   <p class="rule"> Follows theses rules :-</p>
+					   <ul class="ul1">
+					    <li> Team player should be in same branch. </li>
+						<li> After the registration teams divided into two groups name follow as Group A and Group B. </li>
+						<li> Every team plays the match with in its own group as league match. </li>
+						<li> The top two teams selected for playing semi-final match. </li>
+						<li> The semi-final winner team play with other semi-final winner as final match. </li>
+						<li> Final match winner team selected for going to playing cricket with another college as represent our college. </li>
+					   </ul>
+					   <br>
+					   <center> <a href="#foot"> <abber title="pree me"> Go For Registration </abber></a> </center>
+					   <p class="rule"> Co-ordinaters :-</p>	
+                        <ol class="ul1">
+                            <strong> <li> &nbsp; &nbsp; ABC </li> <br>
+                                     <li> &nbsp; &nbsp; PQR </li>	
+							</strong>					
+				        </ol>
+					   <br> <br>
+					   <hr color="black"> <hr color="black">  <br> <br>
+                    </details>
+              </li>
+
+               <li> <details>  
+                       <summary class="title" id="s2" onmouseover="fun21()" onmouseout="fun22()"> <abber title="press me for more info"> Football </abber> </summary>
+					   <h2 style="text-decoration : underline"> Indian Football  History :- </h2> 
+                       <p class="para"> Football was introduced to India by British soldiers in the mid-nineteenth century. It spread because of the 
+					   efforts of Nagendra Prasad Sarbadhikari. In 1888 the Durand Cup was founded by then India's Foreign Secretary, Mortimer Durand 
+					   at Simla, India. The Durand Cup is the third oldest football competition behind the FA Cup and the Scottish Cup. It was initiated, 
+					   as a recreation for British troops stationed in India. Royal Scots Fusiliers won the first edition of the cup by beating Highland 
+					   Light Infantry 2–1 in the Final. In 1893 the IFA Shield was founded as the fourth oldest trophy in the world. Calcutta, then capital 
+					   of British India, soon became the hub of Indian football. Sarada FC was the oldest Indian football club.
+                       Calcutta FC was the first club to be established in 1872. Other early clubs include Dalhousie Club, Traders Club and Naval 
+					   Volunteers Club. </p>		
+					   
+					   <table>
+					     <tr>
+						   <td>
+					         <div>
+					           <img class ="img1" src="C:\Users\Sumit Kumar\Pictures\spardha site\football 1.jpg">
+							 </div>
+						   </td>
+						   
+					       <td>
+					   	      <div>
+					            <img class ="img2" src="C:\Users\Sumit Kumar\Pictures\spardha site\football 2.jpg">
+					          </div>
+						   </td>
+
+					       <td>
+					   	      <div>
+					            <img class ="img3" src="C:\Users\Sumit Kumar\Pictures\spardha site\football 3.jpg">
+					          </div>
+						   </td>
+						 </tr>
+						</table>
+					   <br>
+					   <p class="parac"> intrested student can participate this football comptition by making it's own team. </p>  
+					   <p class="rule"> Follows theses rules :-</p>
+					   <ul class="ul1">
+					    <li> Team player should be in same branch. </li>
+						<li> After the registration teams divided into two pools name follow as Pool A and Pool B. </li>
+						<li> Every team plays the match with in its own pool as league match. </li>
+						<li> The top two teams selected for playing semi-final match. </li>
+						<li> The semi-final winner team play with other semi-final winner as final match. </li>
+						<li> Final winner team selected for going to playing football match with another college as represent our college. </li>
+					   </ul>
+					   <br>
+					   <center> <a href="#foot"> <abber title="pree me"> Go For Registration </abber></a> </center>
+					   <p class="rule"> Co-ordinaters :-</p>	
+                        <ol class="ul1">
+                            <strong> <li> &nbsp; &nbsp; ABC </li> <br>
+                                     <li> &nbsp; &nbsp; PQR </li>	
+							</strong>					
+				        </ol>					   
+					   <br> <br>					   
+					   <hr color="black"> <hr color="black">  <br> <br>
+                       </details>
+              </li>
+
+               <li> <details>  
+                       <summary class="title" id="s3" onmouseover="fun31()" onmouseout="fun32()"> <abber title="press me for more info"> Volleyball </abber> </summary>
+					   <h2 style="text-decoration : underline"> Indian Volleyball History :- </h2> 
+                       <p class="para"> The Volleyball Federation of India was formed in the year 1951. Prior to the formation of the Volleyball Federation 
+					   of India (VFI), the game was controlled by the Indian Olympic Association (IOA) and at that time the Interstate Volleyball Championship
+					   was held every two years from 1936 to 1950 for men only. The first Championship was held in the year 1936 at Lahore (now in Pakistan). 
+					   In 1951, Volleyball Federation of India was formed and its first meeting was held in Ludhiana (Punjab).</p>
+	
+					   <table>
+					     <tr>
+						   <td>
+					         <div>
+					           <img class ="img1" src="C:\Users\Sumit Kumar\Pictures\spardha site\vollyball 1.jpg">
+							 </div>
+						   </td>
+						   
+					       <td>
+					   	      <div>
+					            <img class ="img2" src="C:\Users\Sumit Kumar\Pictures\spardha site\vollyball 2.jpg">
+					          </div>
+						   </td>
+
+					       <td>
+					   	      <div>
+					            <img class ="img3" src="C:\Users\Sumit Kumar\Pictures\spardha site\vollyball 3.jpg">
+					          </div>
+						   </td>
+						 </tr>
+						</table>
+	                    <br>
+					   <p class="parac"> intrested student can participate this Volleyball by making own team. </p>  
+					   <p class="rule"> Follows theses rules :-</p>
+					   <ul class="ul1">
+					    <li> Team player should be in same branch. </li>
+						<li> Every team plays the one match with in another teams as league match. </li>
+						<li> The top two teams selected for final match. </li>
+						<li> Final match winner team selected for going to playing Volleyball match with another college as represent our college. </li>
+					   </ul>
+					   <br>  <br>
+					   <center> <a href="#foot"> <abber title="pree me"> Go For Registration </abber></a> </center>
+					   <p class="rule"> Co-ordinaters :-</p>	
+                        <ol class="ul1">
+                            <strong> <li> &nbsp; &nbsp; ABC </li> <br>
+                                     <li> &nbsp; &nbsp; PQR </li>	
+							</strong>					
+				        </ol>
+					   <br>	<br>		   		
+					   <hr color="black"> <hr color="black">  <br> <br>
+                       </details>
+              </li>
+
+               <li> <details>  
+                       <summary class="title" id="s4" onmouseover="fun41()" onmouseout="fun42()"> <abber title="press me for more info"> Badminton </abber> </summary>
+  					   <h2 style="text-decoration : underline"> Some Information About Indian "Badminton" History :- </h2> 
+                     <p class="para"> Indian shuttlers Saina Nehwal, K. Srikanth and P.V. Sindhu are ranked amongst top-10 in current BWF ranking. 
+					   Prakash Padukone was the first player from India to achieve world no.1 spot in the game and after him K. Srikanth made it to the
+					   top spot as male player for the second time in April 2018 and Saina Nehwal is the first female player from India to achieve 
+					   World no.1 spot in April 2015. The most successful doubles player from India is Jwala Gutta, who is the only Indian to have 
+					   been ranked in the top-10 of two categories. She peaked at no. 6 with Valiyaveetil Diju in mixed doubles and at no. 10 with Ashwini 
+					   Ponnappa in women's doubles. Other successful players include Aparna Popat, Pullela Gopichand, Syed Modi, Chetan Anand, Parupalli
+					   Kashyap, Prannoy Kumar, Ashwini Ponnappa, Chirag Shetty, Satwiksairaj Rankireddy and N. Sikki Reddy.
+                       Padukone and Gopichand both won the All England Open in 1980 and 2001 respectively, making them the only Indians to ever win the 
+					   prestigious title. </p>
+
+					   <table>
+					     <tr>
+						   <td>
+					         <div>
+					           <img class ="img1" src="C:\Users\Sumit Kumar\Pictures\spardha site\badminton.jpg">
+							 </div>
+						   </td>
+						   
+					       <td>
+					   	      <div>
+					            <img class ="img2" src="C:\Users\Sumit Kumar\Pictures\spardha site\badminton 2.jpg">
+					          </div>
+						   </td>
+
+					       <td>
+					   	      <div>
+					            <img class ="img3" src="C:\Users\Sumit Kumar\Pictures\spardha site\badminton 3.jpg">
+					          </div>
+						   </td>
+						 </tr>
+						</table>
+						<br>
+					   <p class="parac"> intrested student can participate this Badminton match making your own team. </p>  					   
+					   <p class="rule"> Follows theses rules :-</p>					   					   
+					   <p id="rule"> Follows theses rules :-</p>
+					   <ul class="ul1">
+					    <li> Team player should be in same branch or different branch. </li>
+						<li> Every team plays the one match with in another teams as league match. </li>
+						<li> The top two teams selected for final match. </li>
+						<li> Final match winner team selected for going to playing Badminton with another college as represent our college. </li>
+					   </ul>
+					   <br>  <br>
+					   <center> <a href="#foot"> <abber title="pree me"> Go For Registration </abber></a> </center>
+					   <p class="rule"> Co-ordinaters :-</p>	
+                        <ol class="ul1">
+                            <strong> <li> &nbsp; &nbsp; ABC </li> <br>
+                                     <li> &nbsp; &nbsp; PQR </li>	
+							</strong>					
+				        </ol>
+					   <br> <br>			   
+					   <hr color="black"> <hr color="black">  <br> <br>
+                       </details>
+              </li>
+
+                <li> <details>  
+                       <summary class="title" id="s5" onmouseover="fun51()" onmouseout="fun52()"> <abber title="press me for more info"> Table Tennis </abber> </summary>
+					   <h2 style="text-decoration : underline"> Some Information About Indian "Table Tennis" History :- </h2> 
+                       <p class="para"> Table tennis is a popular indoor recreation sport in India, which has caught on in states like West Bengal, Tamil Nadu,
+					   Maharashtra, and Gujarat. The Table Tennis Federation of India is the official sports body. As of February 2019, India's Men's Team 
+					   ranked 10th and Women's team ranked 22nd in the World. India has produced singles player ranked in the top 50 both in Men's and Women's 
+					   category, such as Sharath Kamal, Sathiyan Gnanasekaran and Manika Batra.</p>
+
+					   <table>
+					     <tr>
+						   <td>
+					         <div>
+					           <img class ="img1" src="C:\Users\Sumit Kumar\Pictures\spardha site\table tennis 1.jpg">
+							 </div>
+						   </td>
+						   
+					       <td>
+					   	      <div>
+					            <img class ="img2" src="C:\Users\Sumit Kumar\Pictures\spardha site\table tennis 2.jpg">
+					          </div>
+						   </td>
+
+					       <td>
+					   	      <div>
+					            <img class ="img3" src="C:\Users\Sumit Kumar\Pictures\spardha site\table tennis 3.jpg">
+					          </div>
+						   </td>
+						 </tr>
+						</table>
+						<br>
+					   <p class="parac"> intrested student can participate this Table Tennis match making your own team. </p>  					   					   
+					   <p class="rule"> Follows theses rules :-</p>
+					   <ul class="ul1">
+					    <li> Team player should be in same branch or different branch. </li>
+						<li> Every team plays the one match with in another teams as league match. </li>
+						<li> The top two teams selected for final match. </li>
+						<li> Final match winner team selected for going to playing Table Tenis with another college as represent our college. </li>
+                       </ul>
+					   <br> <br>
+					   <center> <a href="#foot"> <abber title="pree me"> Go For Registration </abber></a> </center>
+					   <p class="rule"> Co-ordinaters :-</p>	
+                        <ol class="ul1">
+                            <strong> <li> &nbsp; &nbsp; ABC </li> <br>
+                                     <li> &nbsp; &nbsp; PQR </li>	
+							</strong>					
+				        </ol>
+					   <br> <br>
+					   <hr color="black"> <hr color="black">  <br> <br>					   
+                       </details>
+              </li>
+
+               <li> <details>  
+                       <summary class="title" id="s6" onmouseover="fun61()" onmouseout="fun62()"> <abber title="press me for more info"> Carrom </abber> </summary>
+					   <h2 style="text-decoration : underline"> Some Intresting Information About Indian "Carrom" History :- </h2> 
+                       <p class="para"> The game of carrom is believed to have originated from the Indian subcontinent. One carrom board with its surface made
+					   of glass is still available in one of the palaces in Patiala, India. It became very popular among the masses after World War I. 
+					   State-level competitions were being held in different States of India during early part of the nineteenth century. Serious carrom 
+					   tournaments may have begun in Sri Lanka in 1935 but by 1958, both India and Sri Lanka had formed official federations of carrom clubs, 
+					   sponsoring tournaments and awarding prizes.
+                       The International Carrom Federation (ICF) was formed in the year 1988 in Chennai, India. The formal rules for the Indian version 
+					   of the game were published in 1988. In the same year the ICF officially codified the rules. The game has been very popular throughout 
+					   South Asia, mainly in India, Pakistan, Bangladesh, Sri Lanka, and Nepal. It has gained some popularity in Europe and the United States
+					   where it has been introduced by the Indian diaspora.</p>
+					   
+					   <table>
+					     <tr>
+						   <td>
+					         <div>
+					           <img class ="img1" src="C:\Users\Sumit Kumar\Pictures\spardha site\carrom 1.jpg">
+							 </div>
+						   </td>
+						   
+					       <td>
+					   	      <div>
+					            <img class ="img2" src="C:\Users\Sumit Kumar\Pictures\spardha site\carrom 2.jpg">
+					          </div>
+						   </td>
+
+					       <td>
+					   	      <div>
+					            <img class ="img3" src="C:\Users\Sumit Kumar\Pictures\spardha site\carrom 3.jpg">
+					          </div>
+						   </td>
+						 </tr>
+						</table>
+                        <br>
+						<p class="parac"> intrested student can participate this Carrom Compitition. </p>  					   					   
+					   <p class="rule"> Follows theses rules :-</p>
+                       <ul class="ul1">
+					    <li> It play by a single player </li>
+					    <li> A player should play in same branch player. </li>
+						<li> Every branch winner plays the one match with in. </li>
+						<li> The top two player selected for final match. </li>
+						<li> Final match winner selected for going to playing Carrom with another college as represent our college. </li>
+                       </ul>
+					   <br>  <br>
+					   <center> <a href="#foot"> <abber title="pree me"> Go For Registration </abber></a> </center>
+					   <p class="rule"> Co-ordinaters :-</p>	
+                        <ol class="ul1">
+                            <strong> <li> &nbsp; &nbsp; ABC </li> <br>
+                                     <li> &nbsp; &nbsp; PQR </li>	
+							</strong>					
+				        </ol>
+					   <br> <br>					   
+					   <hr color="black"> <hr color="black">  <br> <br>					   					   
+                       </details>
+              </li>
+
+               <li> <details>  
+                       <summary class="title" id="s7" onmouseover="fun71()" onmouseout="fun72()"> <abber title="press me for more info"> Chess </abber> </summary>
+ 					   <h2 style="text-decoration : underline"> Some Intresting Information About Indian "Chess" History :- </h2> 
+                      <p class="para"> The history of chess goes back almost 1500 years. The game originated in northern India in the 6th century AD and 
+					   spread to Persia. When the Arabs conquered Persia, chess was taken up by the Muslim world and subsequently, through the Moorish 
+					   conquest of Spain, spread to Southern Europe.
+                       In Europe, the moves of the pieces changed in the 15th century. The modern game starts with these changes. In the second half of the 
+					   19th century, modern tournament play began. Chess clocks were first used in 1883, and the first world chess championship was held in 
+					   1886. The 20th century saw advances in chess theory, and the establishment of the World Chess Federation (FIDE). Chess engines 
+					   (programs that play chess), and chess data bases became important. </p>
+					   
+					   <table>
+					     <tr>
+						   <td>
+					         <div>
+					           <img class ="img1" src="C:\Users\Sumit Kumar\Pictures\spardha site\chess 1.jpg">
+							 </div>
+						   </td>
+						   
+					       <td>
+					   	      <div>
+					            <img class ="img2" src="C:\Users\Sumit Kumar\Pictures\spardha site\chess 2.jpg">
+					          </div>
+						   </td>
+
+					       <td>
+					   	      <div>
+					            <img class ="img3" src="C:\Users\Sumit Kumar\Pictures\spardha site\chess 3.jpg">
+					          </div>
+						   </td>
+						 </tr>
+						</table>
+						<br>
+					   <p class="parac"> intrested student can participate this Chess game. </p>  					   					   
+					   <p class="rule"> Follows theses rules :-</p>
+					   <ul class="ul1">
+					    <li> It play by a single player </li>
+					    <li> A player should play in same branch player. </li>
+						<li> Every branch winner plays the one match with in. </li>
+						<li> The top two player selected for final match. </li>
+						<li> Final match winner selected for going to playing Carrom with another college as represent our college. </li>
+                       </ul>
+					   <br>  <br>
+					   <center> <a href="#foot"> <abber title="pree me"> Go For Registration </abber></a> </center>
+					   <p class="rule"> Co-ordinaters :-</p>	
+                        <ol class="ul1">
+                            <strong> <li> &nbsp; &nbsp; ABC </li> <br>
+                                     <li> &nbsp; &nbsp; PQR </li>	
+							</strong>					
+				        </ol>					   
+					   <br> <br>				   					   
+					   <hr color="black"> <hr color="black">  <br> <br>
+                       </details>
+              </li>
+
+               <li> <details>  
+                       <summary class="title" id="s8" onmouseover="fun81()" onmouseout="fun82()"> <abber title="press me for more info"> Atheletics </abber> </summary>
+					   <h2 style="text-decoration : underline"> Some Intresting Information About "Atheletics" In India :- </h2> 
+                       <p class="para"> India is unfortunately not affluent in the field of athletics and track events. There are very few athletes who won 
+					   any medal in any global or major events. But the scenario is changing in the 21st century, when people started taking interest in 
+					   athletics and facility are providing to improve the meager situation of athletics. Anju Bobby George made history when she won the 
+					   bronze medal in Women's long jump at the 2003 World Championships in Athletics in Paris. With this achievement, she became the first 
+					   Indian athlete ever to win a medal in a World Championships in Athletics jumping 6.70 m. Till 2010 Milkha Singh was the only athlete 
+					   to win an individual gold medal at a Commonwealth Games but at 2010 Commonwealth Games, Krishna Punia created history by winning the
+					   Women's discus throw gold medal for India after 52 years and as first woman to win a gold in athletics at Commonwealth Games.</p>
+					   
+					   <table>
+					     <tr>
+						   <td>
+					         <div>
+					           <img class ="img1" src="C:\Users\Sumit Kumar\Pictures\spardha site\atheletie 1.jpg">
+							 </div>
+						   </td>
+						   
+					       <td>
+					   	      <div>
+					            <img class ="img2" src="C:\Users\Sumit Kumar\Pictures\spardha site\atheletie 2.jpg">
+					          </div>
+						   </td>
+
+					       <td>
+					   	      <div>
+					            <img class ="img3" src="C:\Users\Sumit Kumar\Pictures\spardha site\atheletie 3.jpg">
+					          </div>
+						   </td>
+						 </tr>
+						</table>
+						<br>
+					   <p class="parac"> intrested student can participate Atheletics as 100 mtr. race or Cross Country. </p>  					   					   
+					   <p class="rule"> Follows theses rules :-</p>					   
+				       <ul class="ul1">
+					    <li> It followed by two type one is 100 mtr. race and second is Cross Country </li>
+					    <li> In 100 mtr. race who reached first in final point consider is winner. </li>
+						<li> In Cross Country the atheletie must croos all the point and reached first in starting point consider as winner. </li>
+						<li> Winner goes to another college and participate 100 mtr. or cross county Atheletics as represent our college. </li>
+                       </ul>
+					   <br>  <br>
+					   <center> <a href="#foot"> <abber title="pree me"> Go For Registration </abber></a> </center>
+					   <p class="rule"> Co-ordinaters :-</p>	
+                        <ol class="ul1">
+                            <strong> <li> &nbsp; &nbsp; ABC </li> <br>
+                                     <li> &nbsp; &nbsp; PQR </li>	
+							</strong>					
+				        </ol>
+						 <br> <br>
+					     <br> <br>
+                       </details>
+              </li>
+
+              
+        </ul>                 <br>  <hr color="black"> <hr color="black"> <br>
+     
+	           <footer id="foot"> </footer>
+	 
+    <ul>
+	  <details> 
+	  <summary id="summary" onmouseover="funx()" onmouseout="funy()"> <abber title="plese press me !!!"> Registration </abber> </summary> 
+	 <fieldset id="field">
+	   	  
+           <legend style="font-size : 20; font-weight : bold;"> Crete New Account </legend>
+           <form action="skj.php" method="get" onsubmit="return fun();" > 
+		     &nbsp; &nbsp; &nbsp; &nbsp; Team Name &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="text" style="border-radius: 500px;" required > <br> <br>
+
+             &nbsp; &nbsp; &nbsp; &nbsp; Name &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="text" style="border-radius: 500px;" id="user" required placeholder="Minimum 5 words">  <br> <br>
+
+             &nbsp; &nbsp; &nbsp; &nbsp; Gender &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : &nbsp; &nbsp; &nbsp; &nbsp; <input type="radio" name="n" required> Male
+                           &nbsp; &nbsp; <input type="radio" name="n"> Female  <br> <br>
+
+             &nbsp; &nbsp; &nbsp; &nbsp; Branch &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input list="mylist" style="border-radius: 500px;" required placeholder=" Branch Name">
+             <datalist id="mylist">
+			 <option value="Computer Science and Engg. (CSE)">
+			 <option value="Electronics and Communcation Engg. (ECE)">	 
+			 <option value="Mechanical Engg. (ME)">
+			 <option value="Civil Engg. (CE)">
+			 <option value="Electrical Engg. (EE)">
+			 <option value="Chemical Engg. (CHE)">
+			 <option value="Bio Chemical Engg. (BCE)">
+			 </datalist>
+			 <br> <br>
+
+             &nbsp; &nbsp; &nbsp; &nbsp; Year &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input list="digit" style="border-radius: 500px;" required placeholder="Digit">   <br> <br>
+             <datalist id="digit">
+			 <option value="1">
+			 <option value="2">
+			 <option value="3">
+			 <option value="4">
+			 </datalist>
+             &nbsp; &nbsp; &nbsp; &nbsp; Mobile Number &nbsp; &nbsp; &nbsp; : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="text" style="border-radius: 500px;" id="mob" required placeholder="Enter valid mobile no."> <br> <br> <br> <hr color="blue"> <br>
+              <br>
+			<center> <input id="sub" onmouseover="submit1()" onmouseout="submit2()" type="submit" value="Submit" style="font-weight : bold; font-size : 15; border-radius : 500px; color : red"> <center>
+           </form>
+      </fieldset>
+	  </details>
+     </ul>
+	 
+	 <br> <hr color="black"> <hr color="black">
+ 	 <h2> &nbsp; &nbsp; &nbsp; &nbsp;  Follow Us : </h2>
+	 <h3> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Twitter </h3>
+     <h3> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Facebook </h3> 
+	 <h3> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Instagram </h3>
+     <p align="center" id="my" onmouseover="funmy1()" onmouseout="funmy2()" style="font-size : 25; font-weight : bold; text-transform : capitalize; font-family : Pristina"> this page is devloped by skj.. </p>
+     <center> <p style="font-size: 23"> This site reserve as copyright : &copy; </p> </center>
+
+	             <hr color="black"> <hr color="black"> 
+      
+</body>
+
+  <script type="text/javascript" src="jquery.js"> </script>
+  <script type="text/javascript">
+
+  $("#s").hover(funb);
+  	function funa()
+  	{
+  		$("#s").fadeOut(3000).fadeIn(4000);
+  	}
+
+  	$("#title").hover(funb);
+  	function funb()
+  	{
+  		$("#title").fadeOut(2000).fadeIn(3000);
+  	}
+	
+	
+  </script>
+
+</html>
