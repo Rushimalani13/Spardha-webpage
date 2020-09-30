@@ -1,2 +1,2 @@
-# Spardha-webpage
-front end devlopment. languages- html,css,javascript,jquery
+# Spardha-Webpage
+Front End Devlopment|languages-HTML,CSS,Javascript,jquery.
